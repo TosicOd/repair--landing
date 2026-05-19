@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+  background-image: url("photo.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+url("photo.png")
+
+button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+main {
+  padding: 20px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+    }
+
+}
