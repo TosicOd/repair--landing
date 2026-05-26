@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-image: url("photo.png");
+  background-image: url("photo.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -42,5 +42,20 @@ footer {
     .hero-text {
         font-size: 18px;
     }
+body {
+    font-family: Arial;
+    padding: 40px;
+}
 
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
 }
